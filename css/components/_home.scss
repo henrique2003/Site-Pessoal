@@ -1,0 +1,167 @@
+.intro {
+    .text {
+        h1 {
+            color: #ff3f3f;
+            letter-spacing: 1px;
+            font-family: 'Montserrat', sans-serif;
+            font-size: 35px;
+            font-weight: 600;
+        }
+
+        h3 {
+            font-size: 28px;
+            letter-spacing: 1px;
+            color: #808080;
+            font-family: 'Poppins', sans-serif;
+        }
+
+        p {
+            font-size: 18px;
+            letter-spacing: 1px;
+            font-family: 'Open Sans', sans-serif;
+
+            a {
+                text-decoration: none;
+
+                i {
+                    font-size: 35px;
+                    color: rgb(44, 44, 44);
+                }
+            }
+        }
+    }
+}
+
+.ver-mais {
+    a {
+        cursor: inherit;
+        text-decoration: none;
+
+        i {
+            font-size: 40px;
+            color: #ff3f3f;
+        }
+    }
+}
+
+.sobre {
+    border-radius: 2px;
+    -webkit-box-shadow: 4px 4px 7px 0px rgba(128,128,128,1);
+    -moz-box-shadow: 4px 4px 7px 0px rgba(128,128,128,1);
+    box-shadow: 4px 4px 7px 0px rgba(128,128,128,1);
+
+    img {
+        border-radius: 50%;
+    }
+
+    .texto {
+        h3 {
+            font-size: 30px;
+            letter-spacing: 1px;
+            font-family: 'Montserrat', sans-serif;
+            font-weight: 600;
+            border-bottom: 1px solid #ff3f3f;
+            width: 120px;
+        }
+
+        p {
+            letter-spacing: 1px;
+            font-family: 'Poppins', sans-serif;
+            font-size: 19px;
+            color: rgba(0, 0, 0, 0.7);
+        }
+
+        .cv
+        {
+            font-size: 17px;
+            letter-spacing: 1px;
+            font-family: 'Open Sans', sans-serif;
+            color: #ff3f3f;
+            border: 1px solid #ff3f3f;
+            border-radius: 5px;
+            transition: all .3s ease;
+        }
+
+        .contato
+        {
+            font-size: 17px;
+            letter-spacing: 1px;
+            font-family: 'Open Sans', sans-serif;
+            border: 1px solid #808080;
+            border-radius: 5px;
+            transition: all .3s ease;
+            color: white;
+            background: #808080;
+            
+            &:hover
+            {
+                background: #6e6e6e;
+                transition: all .3s ease;
+            }
+        }
+    }
+}
+
+.atividades
+{
+    background: #6e6e6e;
+
+    h3
+    {
+        font-size: 35px;
+        letter-spacing: 1px;
+        font-family: 'Montserrat', sans-serif;
+        color: white;
+        font-weight: 600;
+    }
+
+    .card-atvidades
+    {
+        background: rgba(255,255,255,1  );
+        box-shadow: 10px 10px 10px 10px rgba(0, 0, 0, 0.1);
+
+        img
+        {
+            margin-left: -10px;
+        }
+
+        h4
+        {
+            margin-top: 10px;
+            letter-spacing: 1px;
+            font-size: 23px;
+            font-family: 'Poppins', sans-serif;
+        }
+
+        p
+        {
+            letter-spacing: 1px;
+            font-size: 16px;
+            font-family: 'Poppins', sans-serif;
+        }
+    }
+}
+
+// .servicos
+// {
+//     h3
+//     {
+//         font-size: 35px;
+//         letter-spacing: 1px;
+//         font-family: 'Montserrat', sans-serif;
+//         font-weight: 600;
+//         border-bottom: 1px solid #ff3f3f;
+//     }
+
+//     img
+//     {
+//         filter: grayscale(100%);
+//         transition: all .5s ease;
+
+//         &:hover
+//         {
+//             filter: grayscale(0%);
+//             transition: all .5s ease;
+//         }
+//     }
+// }
