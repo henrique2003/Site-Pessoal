@@ -225,6 +225,80 @@
       }
     }
 
+    .squidfunkos {
+      border: 1px solid #f22f56;
+
+      header {
+        margin-top: 20px;
+
+        h4 {
+          color: #f22f56;
+        }
+      }
+
+      .content {
+        margin-top: 25px;
+
+        section {
+          margin-top: 20px;
+
+          p {
+            line-height: 22px;
+            font-size: 17px;
+            margin-bottom: 30px;
+            max-width: 450px;
+          }
+
+          a {
+            color: #f22f56;
+            border: 1px solid #f22f56;
+
+            &:hover {
+              background: #f22f56;
+              border: 1px solid #f22f56;
+            }
+          }
+        }
+      }
+    }
+
+    .clonenubank {
+      border: 1px solid #8b10ae;
+
+      header {
+        margin-top: 20px;
+
+        h4 {
+          color: #8b10ae;
+        }
+      }
+
+      .content {
+        margin-top: 25px;
+
+        section {
+          margin-top: 20px;
+
+          p {
+            line-height: 22px;
+            font-size: 17px;
+            margin-bottom: 30px;
+            max-width: 450px;
+          }
+
+          a {
+            color: #8b10ae;
+            border: 1px solid #8b10ae;
+
+            &:hover {
+              background: #8b10ae;
+              border: 1px solid #8b10ae;
+            }
+          }
+        }
+      }
+    }
+
     .indecisionapp {
       border: 1px solid #8357c5;
 
