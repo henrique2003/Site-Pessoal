@@ -188,6 +188,35 @@
   color: white;
   transition: all 0.3s ease;
 }
+.wrapper_services .wrapper_services_body .getfruits {
+  border: 1px solid #ffa451;
+}
+.wrapper_services .wrapper_services_body .getfruits header {
+  margin-top: 20px;
+}
+.wrapper_services .wrapper_services_body .getfruits header h4 {
+  color: #ffa451;
+}
+.wrapper_services .wrapper_services_body .getfruits .content {
+  margin-top: 25px;
+}
+.wrapper_services .wrapper_services_body .getfruits .content section {
+  margin-top: 20px;
+}
+.wrapper_services .wrapper_services_body .getfruits .content section p {
+  line-height: 22px;
+  font-size: 17px;
+  margin-bottom: 30px;
+  max-width: 450px;
+}
+.wrapper_services .wrapper_services_body .getfruits .content section a {
+  color: #ffa451;
+  border: 1px solid #ffa451;
+}
+.wrapper_services .wrapper_services_body .getfruits .content section a:hover {
+  background: #ffa451;
+  border: 1px solid #ffa451;
+}
 .wrapper_services .wrapper_services_body .squidfunkos {
   border: 1px solid #f22f56;
 }

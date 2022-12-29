@@ -225,6 +225,43 @@
       }
     }
 
+    .getfruits {
+      border: 1px solid #ffa451;
+      
+      header {
+        margin-top: 20px;
+
+        h4 {
+          color: #ffa451;
+        }
+      }
+
+      .content {
+        margin-top: 25px;
+
+        section {
+          margin-top: 20px;
+
+          p {
+            line-height: 22px;
+            font-size: 17px;
+            margin-bottom: 30px;
+            max-width: 450px;
+          }
+
+          a {
+            color: #ffa451;
+            border: 1px solid #ffa451;
+
+            &:hover {
+              background: #ffa451;
+              border: 1px solid #ffa451;
+            }
+          }
+        }
+      }
+    }
+
     .squidfunkos {
       border: 1px solid #f22f56;
 
